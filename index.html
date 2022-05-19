@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>CodePen - HTML invoice</title>
-  <!--<link rel="stylesheet" href="./style.css"> -->
-<style>
+  <style>
   /* reset */
 
 *
@@ -152,7 +151,8 @@ tr:hover .cut { opacity: 1; }
 }
 
 @page { margin: 0; }
- </style>
+  </style>
+
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -163,7 +163,7 @@ tr:hover .cut { opacity: 1; }
 		<link rel="stylesheet" href="style.css">
 		<link rel="license" href="https://www.opensource.org/licenses/mit-license/">
 		<script>
-          /* Shivving (IE8 is not supported, but at least it won't look as awful)
+		/* Shivving (IE8 is not supported, but at least it won't look as awful)
 /* ========================================================================== */
 
 (function (document) {
@@ -416,7 +416,7 @@ function onContentLoad() {
 }
 
 window.addEventListener && document.addEventListener('DOMContentLoaded', onContentLoad);
-      </script>
+		</script>
 	</head>
 	<body>
 		<header>
@@ -489,7 +489,7 @@ window.addEventListener && document.addEventListener('DOMContentLoaded', onConte
 					<td><span data-prefix currency-sl>$</span><span>600.00</span></td>
 				</tr>
 			</table>
-		
+		</article>
 		<aside>
 			<h1><span contenteditable>Additional Notes</span></h1>
 			<div contenteditable>
@@ -497,7 +497,6 @@ window.addEventListener && document.addEventListener('DOMContentLoaded', onConte
 				<p>Conditions Apply</p>
 			</div>
 		</aside>
-        </article>
 	</body>
 </html>
 <!-- partial -->
